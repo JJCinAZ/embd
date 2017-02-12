@@ -134,6 +134,6 @@ func DetectHost() (host Host, rev int, err error) {
 		}
 		return HostCHIP, rev, nil
 	default:
-		return HostNull, 0, fmt.Errorf(`embd: your host "%v:%v" is not supported at this moment. request support at https://github.com/kidoman/embd/issues`, host, model)
+		return HostNull, 0, fmt.Errorf(`embd: your host "%v:%v" is not supported at this moment. request support at https://github.com/jjcinaz/embd/issues`, host, model)
 	}
 }

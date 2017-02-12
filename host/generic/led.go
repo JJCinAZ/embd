@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kidoman/embd"
+	"github.com/jjcinaz/embd"
 )
 
 type led struct {

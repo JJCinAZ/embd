@@ -14,8 +14,8 @@
 package chip
 
 import (
-	"github.com/kidoman/embd"
-	"github.com/kidoman/embd/host/generic"
+	"github.com/jjcinaz/embd"
+	"github.com/jjcinaz/embd/host/generic"
 )
 
 var spiDeviceMinor = 32766
